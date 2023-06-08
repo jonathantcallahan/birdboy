@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['head', 'helmet', 'person']
+
+roboflow:
+  workspace: jonathan-callahan-rvvon
+  project: hard-hat-sample-wbwtv
+  version: 2
+  license: Public Domain
+  url: https://app.roboflow.com/jonathan-callahan-rvvon/hard-hat-sample-wbwtv/2
