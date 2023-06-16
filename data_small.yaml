@@ -1,0 +1,6 @@
+train: train_small/images
+val: valid_small/images
+test: test_small/images
+
+nc: 7
+names: ["Cooper's Hawk", 'Northern Goshawk', 'Sharp-shinned Hawk', 'Golden Eagle', 'White-tailed Hawk', 'Zone-tailed Hawk', 'Red-tailed Hawk']
