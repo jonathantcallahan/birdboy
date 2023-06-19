@@ -1,0 +1,319 @@
+[34m[1mtrain: [39m[22mScanning C:\Users\jonathancallahan\Projects\birdboy\datasets\train_small\labels.cache... 332 images, 0 backgrounds, 0 corrupt: 100%|██████████| 332/332 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning C:\Users\jonathancallahan\Projects\birdboy\datasets\valid_small\labels.cache... 83 images, 0 backgrounds, 0 corrupt: 100%|██████████| 83/83 [00:00<?, ?it/s]
+Plotting labels to runs\detect\train4\labels.jpg...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.000909, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\train4
+Starting training for 10 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/10         0G     0.9596      3.705      1.312         27        640: 100%|██████████| 21/21 [02:31<00:00,  7.24s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:21<00:00,  7.02s/it]
+                   all         83         83    0.00789      0.932      0.223      0.174
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       2/10         0G     0.9887      3.182      1.326         27        640: 100%|██████████| 21/21 [02:30<00:00,  7.15s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:22<00:00,  7.39s/it]
+                   all         83         83    0.00676      0.961      0.247      0.183
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       3/10         0G      0.996      2.806        1.3         31        640: 100%|██████████| 21/21 [02:42<00:00,  7.72s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:22<00:00,  7.57s/it]
+                   all         83         83      0.531      0.129      0.264      0.185
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       4/10         0G     0.9514      2.615      1.276         29        640: 100%|██████████| 21/21 [02:40<00:00,  7.66s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:22<00:00,  7.51s/it]
+                   all         83         83      0.222      0.549      0.277      0.202
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       5/10         0G      1.007      2.524      1.308         24        640: 100%|██████████| 21/21 [02:40<00:00,  7.63s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:21<00:00,  7.16s/it]
+                   all         83         83       0.31      0.443      0.308      0.222
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       6/10         0G       1.04      2.508      1.351         28        640: 100%|██████████| 21/21 [02:40<00:00,  7.66s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:22<00:00,  7.54s/it]
+                   all         83         83      0.292      0.428      0.356      0.251
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       7/10         0G      1.029      2.468      1.325         25        640: 100%|██████████| 21/21 [02:42<00:00,  7.73s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:22<00:00,  7.65s/it]
+                   all         83         83      0.355      0.565      0.407      0.294
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       8/10         0G      0.934      2.301      1.281         26        640: 100%|██████████| 21/21 [02:36<00:00,  7.45s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:23<00:00,  7.79s/it]
+                   all         83         83      0.313      0.598      0.389       0.28
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       9/10         0G     0.9205      2.175      1.253         26        640: 100%|██████████| 21/21 [02:36<00:00,  7.46s/it]
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:22<00:00,  7.34s/it]
+                   all         83         83      0.362      0.536      0.488      0.351
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      10/10         0G     0.9157      2.133      1.237         31        640: 100%|██████████| 21/21 [02:34<00:00,  7.34s/it]
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:21<00:00,  7.03s/it]
+                   all         83         83      0.403      0.623      0.505      0.388
+10 epochs completed in 0.501 hours.
+Optimizer stripped from runs\detect\train4\weights\last.pt, 6.2MB
+Optimizer stripped from runs\detect\train4\weights\best.pt, 6.2MB
+Validating runs\detect\train4\weights\best.pt...
+Ultralytics YOLOv8.0.118  Python-3.11.3 torch-2.0.1+cpu CPU
+Model summary (fused): 168 layers, 3007013 parameters, 0 gradients, 8.1 GFLOPs
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:20<00:00,  6.71s/it]
+                   all         83         83      0.403      0.623      0.505      0.388
+         Cooper's Hawk         83         14      0.425      0.857       0.71      0.529
+      Northern Goshawk         83         22      0.512      0.455      0.438      0.338
+    Sharp-shinned Hawk         83         10      0.253        0.3      0.233      0.139
+          Golden Eagle         83         20      0.502       0.75      0.753      0.569
+     White-tailed Hawk         83         11      0.367      0.545      0.502      0.436
+      Zone-tailed Hawk         83          6       0.36      0.833      0.393      0.316
+Speed: 1.9ms preprocess, 92.6ms inference, 0.0ms loss, 5.1ms postprocess per image
+Results saved to [1mruns\detect\train4
+Ultralytics YOLOv8.0.118  Python-3.11.3 torch-2.0.1+cpu CPU
+Model summary (fused): 168 layers, 3007013 parameters, 0 gradients, 8.1 GFLOPs
+[34m[1mval: [39m[22mScanning C:\Users\jonathancallahan\Projects\birdboy\datasets\valid_small\labels.cache... 83 images, 0 backgrounds, 0 corrupt: 100%|██████████| 83/83 [00:00<?, ?it/s]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 6/6 [00:20<00:00,  3.47s/it]
+                   all         83         83      0.411      0.607      0.497      0.381
+         Cooper's Hawk         83         14      0.425      0.786      0.717      0.525
+      Northern Goshawk         83         22      0.486       0.43      0.404      0.321
+    Sharp-shinned Hawk         83         10      0.316        0.3      0.242      0.143
+          Golden Eagle         83         20       0.49       0.75      0.751      0.574
+     White-tailed Hawk         83         11      0.377      0.545      0.488      0.419
+      Zone-tailed Hawk         83          6      0.375      0.833       0.38      0.302
+Speed: 1.8ms preprocess, 93.3ms inference, 0.0ms loss, 5.4ms postprocess per image
+Results saved to [1mruns\detect\val3
+Found https:\www.animalspot.net\wp-content\uploads\2021\12\Types-of-Hawks.jpg locally at Types-of-Hawks.jpg
+image 1/1 C:\Users\jonathancallahan\Projects\birdboy\Types-of-Hawks.jpg: 640x640 1 Cooper's Hawk, 1 Northern Goshawk, 1 Sharp-shinned Hawk, 13 Golden Eagles, 3 White-tailed Hawks, 133.0ms
+Speed: 2.0ms preprocess, 133.0ms inference, 3.1ms postprocess per image at shape (1, 3, 640, 640)
+Ultralytics YOLOv8.0.118  Python-3.11.3 torch-2.0.1+cpu CPU
+[34m[1mPyTorch:[39m[22m starting from runs\detect\train4\weights\best.pt with input shape (16, 3, 640, 640) BCHW and output shape(s) (16, 11, 8400) (6.0 MB)
+[34m[1mONNX:[39m[22m starting export with onnx 1.14.0 opset 17...
+[34m[1mONNX:[39m[22m export success  3.0s, saved as runs\detect\train4\weights\best.onnx (11.7 MB)
+Export complete (6.9s)
+Results saved to [1mC:\Users\jonathancallahan\Projects\birdboy\runs\detect\train4\weights
+Predict:         yolo predict task=detect model=runs\detect\train4\weights\best.onnx imgsz=640
+Validate:        yolo val task=detect model=runs\detect\train4\weights\best.onnx imgsz=640 data=data_small.yaml
+Visualize:       https://netron.app
+============== Diagnostic Run torch.onnx.export version 2.0.1+cpu ==============
+verbose: False, log level: Level.ERROR

@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.11.3",
+    "heartbeatAt": "2023-06-19T17:26:55.798097",
+    "startedAt": "2023-06-19T17:26:53.258839",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "birdboy/YOLOv8 Training.ipynb",
+    "root": "C:/Users/jonathancallahan/Projects/birdboy",
+    "git": {
+        "remote": "git@github.com:jonathantcallahan/birdboy.git",
+        "commit": "7894bec0016ba979421f0926ea8fb1f80a6eae3e"
+    },
+    "email": "jtc7537@gmail.com",
+    "host": "LAPTOP-7NRLRFF2",
+    "username": "jonathancallahan",
+    "executable": "C:\\Users\\jonathancallahan\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2496.0,
+        "min": 0.0,
+        "max": 2496.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 2496.0
+        }
+    ],
+    "disk": {
+        "total": 952.6220664978027,
+        "used": 280.47348403930664
+    },
+    "gpu": "NVIDIA RTX A2000 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A2000 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 31.71001434326172
+    }
+}
