@@ -29,3 +29,4 @@ config: {'task': 'detect', 'mode': 'train', 'model': 'yolov8n.pt', 'data': 'data
 2023-06-19 12:26:55,937 INFO    MainThread:15408 [wandb_init.py:init():828] run started, returning control to user process
 2023-06-19 12:57:59,719 INFO    MainThread:15408 [jupyter.py:save_ipynb():373] not saving jupyter notebook
 2023-06-19 12:57:59,719 INFO    MainThread:15408 [wandb_init.py:_pause_backend():418] pausing backend
+2023-06-19 23:03:41,411 WARNING MsgRouterThr:15408 [router.py:message_loop():77] message_loop has been closed
